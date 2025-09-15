@@ -190,7 +190,7 @@ Jika pengguna menginputkan tipe kamar selain tipe kamar yang tersedia (Deluxe, S
 
 Jika pengguna menginputkan lama menginap berupa teks. Maka program akan menampilkan pesan "Input tidak valid. Silahkan masukkan angka", yang kemudian menampilkan kembali inputan untuk lama menginap yang akan diperbarui.
 
-#### 5. Keluar
+#### 5. Batal Perbarui
 <img width="373" height="278" alt="image" src="https://github.com/user-attachments/assets/b6a59e69-a527-4686-b5d5-22077c8491ec" />
 
 
