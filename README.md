@@ -53,11 +53,11 @@ Setelah mengetahui opsi yang diinginkan, pengguna dapat menginputkan opsi yang d
 #### Validasi Input
 <img width="446" height="514" alt="image" src="https://github.com/user-attachments/assets/44564c32-f64f-4632-9a00-f02e384bc1ca" />
 
-Jika pengguna menginputkan opsi diluar rentang opsi yang tersedia (1-6) seperti 7. Maka program akan menampilkan pesan "Pilihan tidak tersedia, silahkan input kembali!", yang kemudian menampilkan kembali menu utama agar pengguna dapat menginputkan kembali opsi yang diinginkan.
+Jika pengguna menginputkan opsi diluar rentang opsi yang tersedia (1-6) seperti 7. Maka program akan menampilkan pesan "Pilihan tidak tersedia, silahkan input kembali!", yang kemudian menampilkan kembali ke menu utama agar pengguna dapat menginputkan kembali opsi yang diinginkan.
 
 <img width="413" height="513" alt="image" src="https://github.com/user-attachments/assets/2a0e3974-a4f1-4068-9a02-84ab78ed30aa" />
 
-Jika pengguna menginputkan opsi berupa teks seperti contoh di atas "tes". Maka program akan menampilkan pesan "Input tidak valid, silahkan masukkan angka", yang kemudian menampilkan kembali menu utama agar pengguna dapat menginputkan kembali opsi yang diinginkan.
+Jika pengguna menginputkan opsi berupa teks seperti contoh di atas "tes". Maka program akan menampilkan pesan "Input tidak valid, silahkan masukkan angka", yang kemudian menampilkan kembali ke menu utama agar pengguna dapat menginputkan kembali opsi yang diinginkan.
 
 ### 1. Tambah Reservasi
 <img width="419" height="181" alt="image" src="https://github.com/user-attachments/assets/76e89ced-5262-46ce-b348-3e74518635cb" />
@@ -88,6 +88,9 @@ Jika pengguna menginputkan tipe kamar selain tipe kamar yang tersedia (Deluxe, S
 
 Jika pengguna menginputkan lama menginap berupa teks. Maka program akan menampilkan pesan "Input tidak valid. Silahkan masukkan angka", yang kemudian menampilkan kembali inputan untuk lama menginap yang akan ditambahkan.
 
+<img width="332" height="65" alt="image" src="https://github.com/user-attachments/assets/7713760c-529f-44d5-ac53-9bc4d48ae15e" />
+
+Jika pengguna menginputkan lama menginap kurang dari 0. Maka program akan menampilkan pesan "Lama menginap harus lebih dari 0", yang kemudian menampilkan kembali inputan untuk lama menginap yang akan ditambahkan.
 
 ### 2. Lihat Reservasi
 <img width="385" height="664" alt="image" src="https://github.com/user-attachments/assets/6d2e58f7-6313-4d6d-9ce1-3f4434cf3ffa" />
@@ -112,13 +115,8 @@ Lalu, program akan memberikan beberapa opsi kepada pengguna dalam memperbarui da
 4. Semua data: untuk mengubah data nama tamu, tipe kamar, dan lama menginap)
 5. Batal Perbarui: untuk keluar dari perbarui data.
 
-#### Validasi Input
-<img width="431" height="273" alt="image" src="https://github.com/user-attachments/assets/2d9b13cf-1920-435e-b95d-7bc37993906d" />
-
-Jika pengguna menginputkan ID Reservasi berupa angka id yang tidak tersedia. Maka program akan menampilkan pesan "ID tidak valid", yang kemudian kembali ke menu utama. Lalu jika pengguna menginput berupa teks. Maka program akan menampilkan pesan error yang serupa, yang kemudian kembali ke menu utama.
-
 #### 1. Nama Tamu
-<img width="377" height="280" alt="image" src="https://github.com/user-attachments/assets/015eef1f-0686-44c0-a742-e9841d62d451" />
+<img width="378" height="296" alt="image" src="https://github.com/user-attachments/assets/af137636-9b5a-4639-80a8-39fd36502483" />
 
 
 Program akan meminta pengguna untuk menginputkan nama tamu yang terbaru. Setelah itu, program akan menampilkan pesan bahwa pembaruan nama tamu berhasil dilakukan, kemudian kembali ke menu utama.
@@ -134,7 +132,8 @@ Tampilan nama tamu setelah diperbarui.
 Jika pengguna menginputkan nama tamu berupa angka. Maka program akan menampilkan pesan "Nama tidak valid, Silahkan masukkan nama berupa huruf", yang kemudian menampilkan kembali inputan untuk nama tamu yang akan diperbarui.
 
 #### 2. Tipe Kamar
-<img width="429" height="264" alt="image" src="https://github.com/user-attachments/assets/c35f38c1-607d-4c80-83aa-4998349dfb53" />
+<img width="429" height="301" alt="image" src="https://github.com/user-attachments/assets/bbedba57-2806-464d-9778-4251611da9e2" />
+
 
 Program akan meminta pengguna untuk menginputkan tipe kamar yang terbaru. Setelah itu, program akan menampilkan pesan bahwa pembaruan tipe kamar berhasil dilakukan, kemudian kembali ke menu utama.
 Lalu tarif reservasi akan diperbarui juga dikarenakan adanya perubahan tipe kamar.
@@ -143,8 +142,14 @@ Lalu tarif reservasi akan diperbarui juga dikarenakan adanya perubahan tipe kama
 
 Tampilan tipe kamar setelah diperbarui.
 
+#### Validasi Input
+<img width="583" height="279" alt="image" src="https://github.com/user-attachments/assets/00ee662c-ddda-4fc2-99bd-50e7ff58bc40" />
+
+Jika pengguna menginputkan tipe kamar selain tipe kamar yang tersedia (Deluxe, Suite, dan Standard). Maka program akan menampilkan pesan "Tipe kamar tidak valid. Pilih 'Deluxe', 'Suite', atau 'Standard, yang kemudian menampilkan kembali inputan tipe kamar yang akan diperbarui.
+
 #### 3. Lama Menginap
-<img width="377" height="278" alt="image" src="https://github.com/user-attachments/assets/a4830b56-432d-4a80-bb70-ee02d2b9b621" />
+<img width="375" height="295" alt="image" src="https://github.com/user-attachments/assets/4e6bd253-4440-443c-b26b-669e9b85484d" />
+
 
 Program akan meminta pengguna untuk menginputkan jumlah malam yang terbaru. Setelah itu, program akan menampilkan pesan bahwa pembaruan tipe kamar berhasil dilakukan, kemudian kembali ke menu utama. 
 Lalu tarif reservasi akan diperbarui juga dikarenakan adanya perubahan lama menginap (jumlah malam).
@@ -153,8 +158,15 @@ Lalu tarif reservasi akan diperbarui juga dikarenakan adanya perubahan lama meng
 
 Tampilan lama menginap setelah diperbarui.
 
+#### Validasi Input
+<img width="424" height="281" alt="image" src="https://github.com/user-attachments/assets/3698f8d1-32cc-4003-a40f-79e1571636b3" />
+
+Jika pengguna menginputkan lama menginap berupa teks. Maka program akan menampilkan pesan "Input tidak valid. Silahkan masukkan angka", yang kemudian menampilkan kembali inputan untuk lama menginap yang akan diperbarui.
+
+
 #### 4. Semua Data
-<img width="402" height="313" alt="image" src="https://github.com/user-attachments/assets/3cbc9ee8-b34b-4b24-af7b-80ada9e3a5cc" />
+<img width="383" height="348" alt="image" src="https://github.com/user-attachments/assets/4fb16c59-b8e2-49df-a582-b9b6c6816914" />
+
 
 Program akan meminta pengguna untuk menginputkan nama tamu, tipe kamar, jumlah malam yang terbaru. Setelah itu, program akan menampilkan pesan bahwa pembaruan data reservasi berhasil dilakukan, kemudian kembali ke menu utama.
 
@@ -162,8 +174,25 @@ Program akan meminta pengguna untuk menginputkan nama tamu, tipe kamar, jumlah m
 
 Tampilan data reservasi setelah diperbarui.
 
+#### Validasi Input
+* Nama Tamu
+<img width="495" height="280" alt="image" src="https://github.com/user-attachments/assets/0f6c00bb-ae13-4828-9715-af7592268c31" />
+
+Jika pengguna menginputkan nama tamu berupa angka. Maka program akan menampilkan pesan "Nama tidak valid, Silahkan masukkan nama berupa huruf", yang kemudian menampilkan kembali inputan untuk nama tamu yang akan diperbarui.
+
+* Tipe Kamar
+<img width="576" height="342" alt="image" src="https://github.com/user-attachments/assets/236e5a1e-c29f-47cb-bd4c-92563fa8add0" />
+
+Jika pengguna menginputkan tipe kamar selain tipe kamar yang tersedia (Deluxe, Suite, dan Standard). Maka program akan menampilkan pesan "Tipe kamar tidak valid. Pilih 'Deluxe', 'Suite', atau 'Standard, yang kemudian menampilkan kembali inputan tipe kamar yang akan diperbarui.
+
+* Lama Menginap
+<img width="582" height="407" alt="image" src="https://github.com/user-attachments/assets/8c3e48c2-ec06-4d49-a7f0-5040b539c1d8" />
+
+Jika pengguna menginputkan lama menginap berupa teks. Maka program akan menampilkan pesan "Input tidak valid. Silahkan masukkan angka", yang kemudian menampilkan kembali inputan untuk lama menginap yang akan diperbarui.
+
 #### 5. Keluar
-<img width="381" height="254" alt="image" src="https://github.com/user-attachments/assets/db2aa847-1c25-4012-b11c-87d9b8cb5cdb" />
+<img width="373" height="278" alt="image" src="https://github.com/user-attachments/assets/b6a59e69-a527-4686-b5d5-22077c8491ec" />
+
 
 Program menampilkan pesan bahwa pembaruan data dibatalkan, kemudian kembali ke menu utama.
 
@@ -172,6 +201,65 @@ Program menampilkan pesan bahwa pembaruan data dibatalkan, kemudian kembali ke m
 
 Program akan menampilkan daftar reservasi yang tersimpan terlebih dahulu untuk memudahkan pengguna dalam memilih reservasi yang akan dihapus, kemudian program meminta pengguna untuk menginputkan "ID Reservasi" yang ingin dihapus.
 
-<img width="408" height="277" alt="image" src="https://github.com/user-attachments/assets/b733bf3b-ebc5-4ea5-b123-f84df72c33bd" />
 
-Setelah menginputkan reservasi yang akan dihapus, program akan menampilkan pesan bahwa penghapusan data reservasi berhasil dilakukan, kemudian kembali ke menu utama.
+<img width="403" height="317" alt="image" src="https://github.com/user-attachments/assets/9927dad3-2f10-459f-966c-cc4374b52b15" />
+
+Setelah menginputkan reservasi yang akan dihapus, program akan menampilkan pesan untuk memastikan penghapusan reservasi akan dilakukan atau tidak (y/n). Setelah pengguna, memilih melanjutkan penghapusan data reservasi (y). Program akan menampilkan pesan bahwa penghapusan data reservasi berhasil dilakukan, kemudian kembali ke menu utama.
+
+### 5. Cari Reservasi
+<img width="381" height="234" alt="image" src="https://github.com/user-attachments/assets/ada5954b-5101-4174-83d3-22d8b4891cc7" />
+
+Program akan menampilkan menu "Cari Reservasi" yang memberikan beberapa opsi kepada pengguna dalam mencari data reservasinya.
+1. ID Reservasi: untuk mengubah nama tamu saja.
+2. Nama Tamu: untuk mengubah tipe kamar saja.
+3. Tipe Kamar: untuk mengubah jumlah malam (lama menginap) saja.
+4. Keluar: untuk mengubah data nama tamu, tipe kamar, dan lama menginap)
+
+#### Validasi Input
+<img width="427" height="426" alt="image" src="https://github.com/user-attachments/assets/919d9d22-d99c-4b6b-b548-d6f96ed4d965" />
+
+Jika pengguna menginputkan opsi diluar rentang opsi yang tersedia (1-4) seperti 5. Maka program akan menampilkan pesan "Pilihan tidak tersedia, silahkan input kembali!", yang kemudian menampilkan kembali ke menu "Cari Reservasi" agar pengguna dapat menginputkan kembali opsi yang diinginkan.
+
+#### 1. ID Reservasi
+<img width="379" height="448" alt="image" src="https://github.com/user-attachments/assets/b4dbd7f6-2787-42e0-bbc6-2f902ff72b95" />
+
+Program akan meminta pengguna untuk menginputkan ID Reservasi yang akan dicari. Program akan mengecek data reservasi yang memiliki ID Reservasi yang serupa, lalu menampilkan informasi reservasinya kepada pengguna. Setelah itu, program akan kembali ke menu "Cari Reservasi" untuk memudahkan pengguna jika ingin melakukan pencarian reservasi kembali.
+
+#### Validasi Input
+<img width="453" height="274" alt="image" src="https://github.com/user-attachments/assets/53e721d9-5734-4c88-a5fb-cbf3576473ba" />
+
+Jika pengguna menginputkan ID Reservasi berupa teks atau angka id yang tidak sesuai. Maka program akan menampilkan pesan bahwa input tidak valid atau reservasi tidak ditemukan, yang kemudian kembali ke menu "Cari Reservasi".
+
+#### 2. Nama Tamu
+<img width="368" height="443" alt="image" src="https://github.com/user-attachments/assets/8bcb2789-3f10-406d-b42e-1449fad2f70e" />
+
+Program akan meminta pengguna untuk menginputkan nama tamu yang akan dicari (kata kuncinya). Program akan mengecek data reservasi yang memiliki kata kunci yang serupa, lalu menampilkan informasi reservasinya kepada pengguna. Setelah itu, program akan kembali ke menu "Cari Reservasi" untuk memudahkan pengguna jika ingin melakukan pencarian reservasi kembali.
+
+#### Validasi Input
+<img width="355" height="276" alt="image" src="https://github.com/user-attachments/assets/3c7acdd2-eb21-4c5c-9238-d38bf439daad" />
+
+Jika pengguna menginputkan nama tamu berupa kata kunci yang tidak sesuai. Maka program akan menampilkan pesan bahwa tidak ditemukan data reservasi yang sesuai, yang kemudian kembali ke menu "Cari Reservasi".
+
+#### 3. Tipe Kamar
+<img width="479" height="446" alt="image" src="https://github.com/user-attachments/assets/1b394028-30fc-4422-82a3-77aff2b472b6" />
+
+Program akan meminta pengguna untuk menginputkan tipe kamar yang akan dicari (kata kuncinya). Program akan mengecek data reservasi yang memiliki kata kunci yang serupa, lalu menampilkan informasi reservasinya kepada pengguna. Setelah itu, program akan kembali ke menu "Cari Reservasi" untuk memudahkan pengguna jika ingin melakukan pencarian reservasi kembali.
+
+#### Validasi Input
+<img width="463" height="279" alt="image" src="https://github.com/user-attachments/assets/87cf738b-db0f-4e66-8461-2089baf3f349" />
+
+Jika pengguna menginputkan tipe kamar berupa kata kunci yang tidak sesuai. Maka program akan menampilkan pesan bahwa tidak ditemukan data reservasi yang sesuai, yang kemudian kembali ke menu "Cari Reservasi".
+
+<img width="416" height="422" alt="image" src="https://github.com/user-attachments/assets/8d8cb3ff-7b22-4fd2-8713-3262f74b559a" />
+
+Jika pengguna menginputkan opsi berupa teks seperti contoh di atas "tes". Maka program akan menampilkan pesan "Input tidak valid, silahkan masukkan angka", yang kemudian menampilkan kembali ke menu "Cari Reservasi" agar pengguna dapat menginputkan kembali opsi yang diinginkan.
+
+#### 4. Keluar
+<img width="398" height="274" alt="image" src="https://github.com/user-attachments/assets/a38df739-aa6a-4d8d-a582-eb159bcaa8fb" />
+
+Program secara otomatis kembali ke menu utama.
+
+### 6. Keluar
+<img width="666" height="409" alt="image" src="https://github.com/user-attachments/assets/9b440528-7000-4f7a-8501-8cefc5a26ffa" />
+
+Program akan menampilkan pesan bahwa program telah berhenti/selesai.
